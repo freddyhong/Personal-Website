@@ -362,6 +362,56 @@ figure figcaption {
   letter-spacing: 0.3rem;
   text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
+#intro-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.typing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.typing-container span:first-child {
+  margin-right: 5px;
+  color: #e6f2ff;
+  font-family: "poppins-bold", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.typing-container a {
+  pointer-events: none;
+}
+.typing-container span:last-child {
+  font-family: "poppins-bold", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#7f4dff, #ff6e6e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.input-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 42px;
+  background-color: white;
+  margin-left: 8px;
+  animation: blink 0.6s linear infinite alternate;
+}
 #intro-content #intro-info {
   font-family: "lora-regular", serif;
   font-size: 1.7rem;
@@ -374,6 +424,7 @@ figure figcaption {
   display: inline-block;
   color: #ffffff;
 }
+/*
 #intro-content #intro-info span::after {
   content: "|";
   text-align: center;
@@ -388,6 +439,7 @@ figure figcaption {
   padding: 0 14px 0 8px;
   color: rgba(255, 255, 255, 0.3);
 }
+*/
 #main-about {
   padding-top: 2em;
   padding-bottom: 2em;

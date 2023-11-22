@@ -318,7 +318,7 @@ figure figcaption {
 #intro {
   width: 100%;
   height: 100%;
-  min-height: 400px;
+  min-height: 220px;
   display: table;
   position: relative;
   text-align: center;
@@ -340,13 +340,16 @@ figure figcaption {
   z-index: 1;
 }
 #intro-content h1 {
-  color: #ffffff;
+  background: -webkit-linear-gradient(10deg, #ffff00, #ff3232);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family: "poppins-medium", sans-serif;
-  font-size: 7rem;
+  font-size: 3.5rem;
+  font-weight: bold;
   line-height: 1.071;
   max-width: 900px;
   margin-top: 0;
-  margin-bottom: 3.25rem;
+  margin-bottom: 2.5rem;
   margin-left: auto;
   margin-right: auto;
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -526,58 +529,58 @@ figure figcaption {
   right: 0;
 }
 .progress-bar.color-1 {
-  background: #2c98f0;
+  background: #529cd9;
 }
 .progress-bar.color-1:after {
-  background: #2c98f0;
+  background: #529cd9;
 }
 .progress-bar.color-1 span {
-  color: #2c98f0;
+  color: #529cd9;
 }
 .progress-bar.color-2 {
-  background: #ec5453;
+  background: #fd7474;
 }
 .progress-bar.color-2:after {
-  background: #ec5453;
+  background: #fd7474;
 }
 .progress-bar.color-2 span {
-  color: #ec5453;
+  color: #fd7474;
 }
 .progress-bar.color-3 {
-  background: #f9bf3f;
+  background: #ffd16f;
 }
 .progress-bar.color-3:after {
-  background: #f9bf3f;
+  background: #ffd16f;
 }
 .progress-bar.color-3 span {
-  color: #f9bf3f;
+  color: #ffd16f;
 }
 .progress-bar.color-4 {
-  background: #a84cb8;
+  background: #a46ac5;
 }
 .progress-bar.color-4:after {
-  background: #a84cb8;
+  background: #a46ac5;
 }
 .progress-bar.color-4 span {
-  color: #a84cb8;
+  color: #a46ac5;
 }
 .progress-bar.color-5 {
-  background: #2fa499;
+  background: #3caba0;
 }
 .progress-bar.color-5:after {
-  background: #2fa499;
+  background: #3caba0;
 }
 .progress-bar.color-5 span {
-  color: #2fa499;
+  color: #3caba0;
 }
 .progress-bar.color-6 {
-  background: #4054b2;
+  background: #5065c4;
 }
 .progress-bar.color-6:after {
-  background: #4054b2;
+  background: #5065c4;
 }
 .progress-bar.color-6 span {
-  color: #4054b2;
+  color: #5065c4;
 }
 #main-work {
   padding-left: 3em;
@@ -659,25 +662,25 @@ figure figcaption {
   .timeline-entry
   .timeline-entry-inner
   .timeline-icon.color-2 {
-  background: #ec5453;
+  background: #3c6accda;
 }
 .timeline-centered
   .timeline-entry
   .timeline-entry-inner
   .timeline-icon.color-3 {
-  background: #f9bf3f;
+  background: #3f7a9e;
 }
 .timeline-centered
   .timeline-entry
   .timeline-entry-inner
   .timeline-icon.color-4 {
-  background: #a84cb8;
+  background: #42899b;
 }
 .timeline-centered
   .timeline-entry
   .timeline-entry-inner
   .timeline-icon.color-5 {
-  background: #2fa499;
+  background: #4d9a8e;
 }
 .timeline-centered
   .timeline-entry
@@ -759,10 +762,14 @@ figure figcaption {
 .timeline-centered p {
   text-align: left;
   margin-top: 15px;
+  font-size: 15px;
+  font-family: "poppins-medium", sans-serif;
+  font-weight: 400;
 }
 #main-project {
   padding-left: 3em;
   text-align: left;
+  margin-top: 25px;
 }
 #main-project .row:first-child {
   margin-bottom: 20px;
@@ -889,17 +896,21 @@ figure figcaption {
 #main-contact {
   padding-left: 3em;
   text-align: left;
+  margin-top: 25px;
   margin-bottom: 40px;
 }
 #main-contact .row:first-child {
   margin-bottom: 20px;
 }
-
+#main-contact .contact-box {
+  width: 850px;
+  padding-left: 30px;
+}
 .main-feature {
   text-align: left;
-  width: 100%;
+  width: 50%;
   float: left;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   position: relative;
 }
 .main-feature .contact-icon {
@@ -919,7 +930,7 @@ figure figcaption {
 .main-feature .contact-icon i {
   display: table-cell;
   vertical-align: middle;
-  color: #487eaa;
+  color: #3d7dabc6;
   font-size: 60px;
   height: 80px;
 }
@@ -930,12 +941,12 @@ figure figcaption {
 }
 .main-feature .contact-text {
   padding-left: 120px;
-  width: 100%;
+  width: 70%;
 }
 .contact-text {
   display: flex;
   padding-top: 30px;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 

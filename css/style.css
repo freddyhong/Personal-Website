@@ -898,17 +898,18 @@ figure figcaption {
   text-align: left;
   margin-top: 25px;
   margin-bottom: 40px;
+  width: 100%;
 }
 #main-contact .row:first-child {
   margin-bottom: 20px;
 }
 #main-contact .contact-box {
-  width: 850px;
-  padding-left: 30px;
+  width: 100%;
+  padding-left: 3em;
 }
 .main-feature {
   text-align: left;
-  width: 50%;
+  width: 100%;
   float: left;
   margin-bottom: 50px;
   position: relative;
@@ -934,11 +935,10 @@ figure figcaption {
   font-size: 60px;
   height: 80px;
 }
-@media screen and (max-width: 1200px) {
-  .main-feature .contact-icon i {
-    font-size: 40px;
-  }
+.main-feature .contact-icon i {
+  font-size: 40px;
 }
+
 .main-feature .contact-text {
   padding-left: 120px;
   width: 70%;
